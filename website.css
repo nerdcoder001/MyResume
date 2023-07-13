@@ -1,0 +1,147 @@
+nav{
+    background-color: #2C3E50;
+    display: grid;
+    position: fixed;
+
+    
+}
+
+.container-fluid{
+    padding-left: 400px;
+    display: inline-block;
+}
+.shree{
+  display: inline-block;
+  padding-left: 150px;
+  font-size:xx-large;
+  
+}
+.shouts{
+    text-decoration: none;
+    padding-left: 50px;
+    color: azure;
+    font-size: 20px;
+    font-family: fantasy;
+}
+.shouts2{
+  text-decoration: none;
+  font-size: 20px;
+  font-family: fantasy;
+  color: #0D6EFD;
+  
+}
+/* .shouts:hover{
+    color: aqua;
+} */
+.img-fluid{
+  
+  border-radius: 50%;
+  height: 20%;
+  width: 20%;
+  
+}
+.text-center{
+  height: 600px;
+  background: #18BC9C;
+  color: aliceblue;
+  font-size: x-large;
+}
+#name{
+  font-family: caprasimo;
+  font-size:250%;
+}
+.text-light{
+padding-left: 180px;
+}
+
+.text-black{
+  font-size: 150%;
+}
+.text-center1{
+  height: 600px;
+  background: #18BC9C;
+  color: aliceblue;
+}
+
+.bg{
+  background: #18BC9C;
+}
+section{
+  background-color: #18BC9C;
+  
+}
+#about{
+  font-size: xx-large;
+  color: aliceblue;
+}
+p{
+  font-size: xx-large;
+  color: aliceblue;
+  align-items: center;
+  font-family:caprasimo ;
+}
+h3{
+  align-items: center;
+}
+pre{
+  text-align: center;
+  font-size: large;
+  font-family: caprasimo;
+}
+.btn{
+  size: 50%;
+  position: relative;
+  left: 500px;
+  margin: 10px;
+  background-color:#18BC9C;
+  color: aliceblue;
+  border-color: aliceblue
+}
+.btn:hover{
+  background-color: aliceblue;
+}
+
+.photo .image-container .rounded img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: .2s linear;
+}
+.photo .image-container .rounded:hover img{
+  transform: scale(1.1);
+}
+.photo .popup-image{
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: rgba(0,0,0,.9);
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  display: none;
+}
+.photo .popup-image span{
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 60px;
+  font-weight: bolder;
+  color: #fff;
+  cursor: pointer;
+  z-index: 100%;
+}
+.photo .popup-image img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 5px solid #fff;
+  border-radius: 5px;
+  width: 750px;
+  object-fit: cover;
+}
+@media (max-width:768px){
+  .photo .popup-image img{
+    width: 95%;
+  }
+}
